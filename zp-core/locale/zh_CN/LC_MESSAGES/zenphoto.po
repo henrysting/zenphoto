@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Zenphoto 1.5.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-01 07:24+0800\n"
-"PO-Revision-Date: 2022-03-01 19:55+0800\n"
+"PO-Revision-Date: 2022-03-07 16:41+0800\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -923,7 +923,7 @@ msgid ""
 "Select an album to edit its description and data, or <a href=\"?page=edit&amp;"
 "album=%s&amp;massedit\">mass-edit</a> all first level subalbums."
 msgstr ""
-"选择一个影集来编辑其描述和数据，或< a href=\"？page=edit&amp;album=%s&amp;"
+"选择一个影集来编辑其描述和数据，或<a href=\"?page=edit&amp;album=%s&amp;"
 "massedit\">mass-edit</a> all first level subalbums。"
 
 #: zp-core%2Fadmin-edit.php%3A790+zp-core%2Fadmin-edit.php%3A792+zp-core%2Fadmin-edit.php%3A852+zp-core%2Fadmin-edit.php%3A854+zp-core%2Fadmin-functions.php%3A1246+zp-core%2Fadmin-functions.php%3A1248+zp-core%2Fadmin-functions.php%3A2001+zp-core%2Fadmin-functions.php%3A2003
@@ -1755,7 +1755,7 @@ msgstr "杂项"
 
 #: zp-core/admin-functions.php:4592
 msgid "Active"
-msgstr "活动"
+msgstr "活动的"
 
 #: zp-core%2Fadmin-functions.php%3A4593+zp-core%2Fadmin-functions.php%3A5151+zp-core%2Fzp-extensions%2Fzenpage%2Fzenpage-admin-functions.php%3A804
 msgid "All"
@@ -2408,7 +2408,7 @@ msgstr "网址选项："
 
 #: zp-core/admin-options.php:692
 msgid "mod rewrite"
-msgstr "模组重写"
+msgstr "mod_rewrite"
 
 #: zp-core/admin-options.php:698
 msgid "UTF8 image URIs"
@@ -2423,16 +2423,16 @@ msgid ""
 "If you have Apache <em>mod rewrite</em> (or equivalent), put a checkmark on "
 "the <em>mod rewrite</em> option and you will get nice cruft-free URLs."
 msgstr ""
-"如果你有Apache<em>模组重写</em>（或等效的），在<em>模组重写</em>选项上打一个复"
-"选标签，你会得到很好的无垃圾URL。"
+"如果你有Apache<em>mod rewrite</em>（或等效工具），在<em>mod rewrite</em>选项上"
+"打一个复选标签，你会得到漂亮的无垃圾URL。"
 
 #: zp-core/admin-options.php:706
 msgid ""
 "The <em>tokens</em> used in rewritten URIs may be altered to your taste. See "
 "the <a href=\"%s\">plugin options</a> for <code>rewriteTokens</code>."
 msgstr ""
-"重写的 URI 中使用的<em>标签</em>可能会根据您的喜好进行更改。请参阅重写令牌的< "
-"a href=\"%s\">plugin 选项</a><code>。</code>"
+"重写的 URI 中使用的<em>标签</em>可能会根据您的喜好进行更改。请参阅重写令牌的"
+"<a href=\"%s\">plugin 选项</a><code>。</code>"
 
 #: zp-core/admin-options.php:709
 msgid "Setup did not detect a working <em>mod_rewrite</em> facility."
@@ -2474,7 +2474,7 @@ msgid ""
 "check the <a href=\"%2$s\">translation repository</a> for new and updated "
 "language translations."
 msgstr ""
-"突出显示的语言不是 Zenphoto 版本 %1$s 的最新语言（过期语言的 Zenphoto 版本显示"
+"高亮显示的语言不是 Zenphoto 版本 %1$s 的最新语言（过期语言的 Zenphoto 版本显示"
 "在大括号中。）请查看<a href=\"%2$s\">翻译存储库</a>，了解新的和更新的语言翻"
 "译。"
 
@@ -2484,8 +2484,8 @@ msgid ""
 "server and therefore will not work. This is a technical requirement by native "
 "<a href=\"%2$s\">PHP gettext</a>."
 msgstr ""
-"标有 %1$s 图标的语言在服务器上未安装匹配的区域设置，因此将不起作用。这是本机< "
-"href=\"%2$s\">PHP gettext 的技术要求</a>。"
+"标有 %1$s 图标的语言在服务器上未安装匹配的区域设置，因此将不起作用。这是本机"
+"<a href=\"%2$s\">PHP gettext </a>的技术要求。"
 
 #: zp-core/admin-options.php:835
 msgid "Multi-lingual"
@@ -4249,7 +4249,7 @@ msgid ""
 msgstr ""
 "如果启用了数据使用确认，则由官方插件<em>comment_form</em>，<em>contact_form</"
 "em>和<em>register_user</em>插件使用。其他插件或用法必须专门实现 "
-"<code>getDataUsageNotice()/printDataUsageNotice()。</code>"
+"<code>getDataUsageNotice()/printDataUsageNotice()</code>。"
 
 #: zp-core/admin-options.php:3465
 msgid "Data privacy usage notice"
@@ -4406,7 +4406,7 @@ msgstr "有关 %s 的详细信息"
 
 #: zp-core%2Fadmin-plugins.php%3A396+zp-core%2Fadmin-themes.php%3A273
 msgid "by %s"
-msgstr "按 %s"
+msgstr "由 %s"
 
 #: zp-core/admin-plugins.php:398
 msgid "Visit plugin site"
@@ -7555,7 +7555,7 @@ msgstr "英语（加拿大）"
 
 #: zp-core/functions-i18n.php:54
 msgid "English (United Kingdom)"
-msgstr "中文（简体）"
+msgstr "英语（英国）"
 
 #: zp-core/functions-i18n.php:55
 msgid "English (India)"
@@ -7571,7 +7571,7 @@ msgstr "英语（菲律宾）"
 
 #: zp-core/functions-i18n.php:58
 msgid "English (United States)"
-msgstr "中文（简体）"
+msgstr "英语（美国）"
 
 #: zp-core/functions-i18n.php:59
 msgid "English (South Africa)"
@@ -8905,8 +8905,8 @@ msgid ""
 "not approve translations as officially valid. Unofficial translations are "
 "available <a href=\"%s\">here</a>."
 msgstr ""
-"此许可证是英文的，因为<em>自由软件基金会</em>不批准翻译为正式有效。非官方翻译"
-"<a href=\"%s\">这里。</a>"
+"此许可证是英文的，因为<em>自由软件基金会</em>不认可翻译为正式有效文件。非官方"
+"翻译参见<a href=\"%s\">这里</a>。"
 
 #: zp-core/license.php:47
 msgid "You must accept this license to continue to use Zenphoto."
@@ -8937,7 +8937,7 @@ msgstr "翻译此页。"
 #: zp-core/pluginDoc.php:126
 msgid ""
 "See also the <a href=\"%1$s\">%2$s</a> third party plugin page for more info."
-msgstr "有关详细信息，另请参阅< href=\"%1$s\">%2$s</a> 第三方插件页面。"
+msgstr "有关详细信息，另请参阅<a href=\"%1$s\">%2$s</a> 第三方插件页面。"
 
 #: zp-core/pluginDoc.php:132
 msgid ""
@@ -9029,7 +9029,7 @@ msgid ""
 msgstr ""
 "安装程序无法将文件权限从 <em>%1$s</em> （<code>0%2$o</code>） 更改为 <em>"
 "%3$s</em> （<code>0%4$o</code>）。您必须手动设置权限。有关 Zenphoto 权限要求的"
-"详细信息，请参阅 < href=\"https://www.zenphoto.org/news/troubleshooting-"
+"详细信息，请参阅 <a href=\"https://www.zenphoto.org/news/troubleshooting-"
 "zenphoto#29\">故障排除指南</a>。"
 
 #: zp-core/setup/class-setup.php:283
@@ -9876,7 +9876,7 @@ msgstr "数据库 <code>%s</code> 已创建"
 
 #: zp-core/setup/index.php:1083
 msgid "Click here to attempt to create <a href=\"?Create_Database\" >%s</a>."
-msgstr "单击此处尝试创建< href=\"？Create_Database\">%。</a>"
+msgstr "单击此处尝试创建<a href=\"？Create_Database\">%。</a>"
 
 #: zp-core/setup/index.php:1088
 msgid ""
@@ -10121,7 +10121,7 @@ msgid ""
 "\">Troubleshooting guide</a> for details on Zenphoto permissions requirements."
 msgstr ""
 "安装程序无法将一个或多个组件设置为选定的权限级别。您必须手动设置权限。有关 "
-"Zenphoto 权限要求的详细信息，请参阅 < href=\"https://www.zenphoto.org/news/"
+"Zenphoto 权限要求的详细信息，请参阅 <a href=\"https://www.zenphoto.org/news/"
 "permissions-for-zenphoto-files-and-folders\">疑难解答指南</a>。"
 
 #: zp-core/setup/index.php:1450
@@ -11313,7 +11313,7 @@ msgid ""
 "your host about this."
 msgstr ""
 "抱歉，无法将区域设置列为必需<a href=\"%s\">PHP 类 ResourceBundle</a> 在您的系"
-"统上不可用。我们建议您就此联系房东。"
+"统上不可用。我们建议您就此联系管理员。"
 
 #: zp-core%2Futilities%2Fmaintenance_mode.php%3A16+zp-core%2Futilities%2Fmaintenance_mode.php%3A21+zp-core%2Futilities%2Fmaintenance_mode.php%3A54
 msgid "Maintenance mode"
@@ -11603,8 +11603,8 @@ msgid ""
 "\"><em>Maps API</em></a>. Please review these to be sure your site is in "
 "compliance."
 msgstr ""
-"<strong>注意</strong>：Google 确实限制使用其< a href=\"%s\"><em>Maps API</"
-"em></a>。请查看这些内容，以确保您的网站符合要求。"
+"<strong>注意</strong>：Google 确实限制使用其<a href=\"%s\"><em>Maps API</em></"
+"a>。请查看这些内容，以确保您的网站符合要求。"
 
 #: zp-core%2Fzp-extensions%2FGoogleMap.php%3A27+zp-core%2Fzp-extensions%2Fclass-WEBdocs.php%3A18+zp-core%2Fzp-extensions%2Fopenstreetmap.php%3A21+zp-core%2Fzp-extensions%2FreCaptcha.php%3A22
 msgid "Privacy note: This plugin uses external third party sources"
@@ -11715,8 +11715,8 @@ msgid ""
 "Enter your API key. You can get one <a href=\"https://developers.google.com/"
 "maps/documentation/javascript/get-api-key#key\">here</a>."
 msgstr ""
-"输入您的 API 密钥。你可以在这里<a href=\"https://developers.google.com/maps/"
-"documentation/javascript/get-api-key#key\">得到一个</a>。"
+"输入您的 API 密钥。你可以在<a href=\"https://developers.google.com/maps/"
+"documentation/javascript/get-api-key#key\">这里</a>得到一个。"
 
 #: zp-core/zp-extensions/GoogleMap.php:353
 msgid "Google Map"
@@ -11789,7 +11789,7 @@ msgid ""
 "Only one Email handler plugin may be enabled. <a href=\"#%1$s\"><code>%1$s</"
 "code></a> is already enabled."
 msgstr ""
-"只能启用一个电子邮件处理程序插件。< href=\"#%1$s\"><code>%1$s</code></a> 已启"
+"只能启用一个电子邮件处理程序插件。<a href=\"#%1$s\"><code>%1$s</code></a> 已启"
 "用。"
 
 #: zp-core/zp-extensions/PHPMailer.php:53
@@ -11915,7 +11915,7 @@ msgstr ""
 msgid ""
 "Only one Carousel plugin may be enabled. <a href=\"#%1$s\"><code>%1$s</code></"
 "a> is already enabled."
-msgstr "只能启用一个轮播插件。< href=\"#%1$s\"><code>%1$s</code></a> 已启用。"
+msgstr "只能启用一个轮播插件。<a href=\"#%1$s\"><code>%1$s</code></a> 已启用。"
 
 #: zp-core/zp-extensions/bxslider_thumb_nav.php:53
 msgid "Minimum items"
@@ -13387,7 +13387,7 @@ msgid ""
 "You will need to run <a href=\"%1$s\">setup</a> to update the database with "
 "the custom fields defined by the <em>%2$s</em> plugin."
 msgstr ""
-"您需要运行< href=\"%1$s\">设置</a>，以使用 <em>%2$s</em> 插件定义的自定义字段"
+"您需要运行<a href=\"%1$s\">设置</a>，以使用 <em>%2$s</em> 插件定义的自定义字段"
 "更新数据库。"
 
 #: zp-core/zp-extensions/contact_form.php:18
@@ -13673,7 +13673,7 @@ msgid ""
 "osano.com/</a>"
 msgstr ""
 "一个插件，用于添加 Cookie 通知对话框，以符合欧盟 Cookie 法律和 Google 关于使"
-"用 Google Adwords、Analytics 等的请求。基于<a href='https：//cookieconsent."
+"用 Google Adwords、Analytics 等的请求。基于<a href='https://cookieconsent."
 "osano.com/'>https://cookieconsent.osano.com/</a>"
 
 #: zp-core/zp-extensions/cookieconsent.php:25
@@ -15125,8 +15125,8 @@ msgid ""
 "* This option may be set via the <a href=\"javascript:"
 "gotoName('html_meta_tags');\"><em>html_meta_tags</em></a> plugin options."
 msgstr ""
-"* 此选项可以通过< a href=\"javascript：gotoName（'html_meta_tags'）;"
-"\"><em>html_meta_tags</em>插件选项进行设置</a>。"
+"* 此选项可以通过<a href=\"javascript:gotoName('html_meta_tags');"
+"\"><em>html_meta_tags</em></a>插件选项进行设置。"
 
 #: zp-core/zp-extensions/http_security_headers.php:23
 msgid ""
@@ -15145,7 +15145,7 @@ msgid ""
 "target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/"
 "Content-Security-Policy</a>."
 msgstr ""
-"内容安全策略标头允许您控制允许浏览器加载哪些资源。有关详细信息，请参阅< href="
+"内容安全策略标头允许您控制允许浏览器加载哪些资源。有关详细信息，请参阅<a href="
 "\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-"
 "Policy\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Web/HTTP/"
 "Headers/Content-Security-Policy</a>。"
@@ -15304,7 +15304,7 @@ msgstr ""
 #: zp-core/zp-extensions/http_security_headers.php:417
 msgid ""
 "For detailed info please see <a href=\"%1$s\" target=\"_blank\">%2$s</a>."
-msgstr "有关详细信息，请参阅< href=\"%1$s\" target=\"_blank\">%2$s</a>。"
+msgstr "有关详细信息，请参阅<a href=\"%1$s\" target=\"_blank\">%2$s</a>。"
 
 #: zp-core/zp-extensions/http_security_headers.php:422
 msgid ""
@@ -15792,7 +15792,7 @@ msgid ""
 "tracking\">Content tracking</a>."
 msgstr ""
 "控制您是否希望 Matomo 跟踪内容交互（例如链接点击）。您的主题/插件/网站需要特定"
-"的HTML标签才能正常工作。有关它的更多信息，请访问< href=\"https://developer."
+"的HTML标签才能正常工作。有关它的更多信息，请访问<a href=\"https://developer."
 "matomo.org/guides/content-tracking\">内容跟踪</a>。"
 
 #: zp-core/zp-extensions/matomo.php:109
@@ -16699,7 +16699,7 @@ msgid ""
 "position will be highlighted."
 msgstr ""
 "如果要在单个图像页面上显示地图，不仅要显示当前图像的标签，还要在影集中的所有标"
-"签上显示地图，请启用此选项。当前位置将突出显示。"
+"签上显示地图，请启用此选项。当前位置将高亮显示。"
 
 #: zp-core/zp-extensions/openstreetmap.php:182
 msgid "Mini map"
@@ -17370,8 +17370,8 @@ msgid ""
 "Enter your <em>reCaptcha v2</em> public key. You can obtain this key from the "
 "Google <a href=\"http://www.google.com/recaptcha\">reCaptcha</a> site"
 msgstr ""
-"输入您的 <em>reCaptcha v2</em> 公钥。您可以从Google < a href=\"http://www."
-"google.com/recaptcha\">reCaptcha网站获取此密钥</a>"
+"输入您的 <em>reCaptcha v2</em> 公钥。您可以从Google <a href=\"http://www."
+"google.com/recaptcha\">reCaptcha网站</a>获取此密钥"
 
 #: zp-core/zp-extensions/reCaptcha.php:55
 msgid "Private key"
@@ -20084,7 +20084,7 @@ msgstr "用户组成员身份： %s"
 
 #: zp-core/zp-extensions/user_groups.php:201
 msgid "Templates are highlighted."
-msgstr "模板将突出显示。"
+msgstr "模板将高亮显示。"
 
 #: zp-core%2Fzp-extensions%2Fuser_groups.php%3A201+zp-core%2Fzp-extensions%2Fuser_groups%2Fuser_groups-tab.php%3A463
 msgid ""
@@ -21440,7 +21440,7 @@ msgid ""
 "and smoothgallery) added. Select different color schemes and personalities "
 "from the Admin Options tab."
 msgstr ""
-"基于Effervescence 1.1，添加了多种人格（slimbox，simpleviewer和"
+"基于Effervescence 1.1，添加了多种风格（slimbox，simpleviewer和"
 "smoothgallery）。从\"管理员选项\"选项卡中选择不同的配色方案和个性。"
 
 msgid "1 photo"
@@ -21715,7 +21715,7 @@ msgid ""
 "translations."
 msgstr ""
 "请查看<a href=\"http://www.zenphoto.org/trac/report/9?asc=0&sort=version\">翻"
-"译站点</a>，了解新的和更新的语言翻译。"
+"译站点</a>，了解新语言翻译及更新。"
 
 msgid ""
 "<strong>Note:</strong> if you have created multi-language strings, uncheck "
@@ -23939,7 +23939,7 @@ msgid ""
 "setup.php\">setup</a> to create Zenpage database tables. If tables are "
 "created, you will need repeat thus restore operation."
 msgstr ""
-"恢复启用了Zenpage插件。您应该运行< href=\"%1$s/%2$s/setup.php\">setup</a>来创"
+"恢复启用了Zenpage插件。您应该运行<a href=\"%1$s/%2$s/setup.php\">setup</a>来创"
 "建 Zenpage 数据库表。如果创建了表，则需要重复\"因此还原\"操作。"
 
 msgid ""
@@ -23967,7 +23967,7 @@ msgid ""
 msgstr ""
 "启用<strong>流播放器 3</strong> 以处理多媒体文件。重要说明：当时只能启用一个多"
 "媒体播放器插件，并且还必须启用类视频插件。<br /> 有关播放器及其许可证的更多信"
-"息，请参阅< a href='http：//flowplayer.org'>flowplayer.org</a>。"
+"息，请参阅<a href='http://flowplayer.org'>flowplayer.org</a>。"
 
 msgid ""
 "jQuery jCarousel thumb nav plugin with dynamic loading of thumbs on request "

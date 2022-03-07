@@ -24,7 +24,10 @@ if (version_compare(PHP_VERSION, PHP_MIN_VERSION, '<')) {
 require_once(dirname(dirname(__FILE__)) . '/global-definitions.php');
 
 session_cache_limiter('nocache');
-$session = session_start();
+if(!isset($_SESSION)) 
+    { 
+        $session = session_start();
+    } 
 
 header('Content-Type: text/html; charset=UTF-8');
 header("HTTP/1.0 200 OK");
